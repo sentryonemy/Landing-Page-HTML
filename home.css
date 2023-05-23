@@ -604,6 +604,13 @@
   height: 50vh;
   align-self: center;
 }
+.home-sliderdiv {
+  width: 100%;
+  height: 50vh;
+  align-self: center;
+  align-items: center;
+  display: flex;
+}
 .home-section-separator2 {
   width: 100%;
   height: 1px;
@@ -898,7 +905,7 @@
   color: #66b574;
 }
 .home-text107 {
-  color: ffffff;
+  color: #ffffff;
   font-size: 0.5rem;
   align-self: center;
   font-style: normal;

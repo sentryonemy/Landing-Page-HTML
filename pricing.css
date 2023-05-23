@@ -39,10 +39,6 @@
 }
 
 
-
-
-
-
 @media(max-width: 1200px) {
   .testimonial-card1-testimonial-card {
     border-color: #222529;
@@ -378,6 +374,12 @@
   font-family: Roboto;
   padding-bottom: var(--dl-space-space-fourunits);
 }
+.pricing-text077 {
+  color: #ffffff;
+  text-align: center;
+  font-family: Roboto;
+  padding-bottom: var(--dl-space-space-doubleunits);
+}
 .pricing-container4 {
   width: 100%;
   display: grid;
@@ -588,20 +590,22 @@
   font-size: 12px;
   text-decoration: underline;
 }
-@media(max-width: 1200px) {
-  .pricing-text03 {
+  .pricing-text06 {
+    font-size: 1.23rem;
+    font-weight: 600;
+  }
+    .pricing-text03 {
     font-size: 2rem;
   }
+@media(max-width: 1200px) {
+
   .pricing-text04 {
     font-size: 2rem;
   }
   .pricing-text05 {
     font-weight: 600;
   }
-  .pricing-text06 {
-    font-size: 1.23rem;
-    font-weight: 600;
-  }
+
   .pricing-link08 {
     align-self: flex-start;
   }
