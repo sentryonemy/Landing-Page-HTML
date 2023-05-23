@@ -241,13 +241,13 @@
   flex: 0 0 auto;
   left: 0px;
   width: 100%;
-  height: 100VH;
+  height: 30VH;
   display: none;
   padding: var(--dl-space-space-doubleunit);
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #222529;
 }
 .pricing-container1 {
   flex: 0 0 auto;
@@ -280,18 +280,23 @@
   flex-direction: column;
 }
 .pricing-link04 {
-  margin-bottom: var(--dl-space-space-unit);
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
 .pricing-link05 {
-  margin-bottom: var(--dl-space-space-unit);
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
 .pricing-link06 {
-  margin-bottom: var(--dl-space-space-unit);
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
 .pricing-link07 {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
 .pricing-banner {
@@ -669,6 +674,18 @@
   }
 }
 @media(max-width: 767px) {
+	.pricing-link {
+display: none;
+}
+.pricing-link01 {
+display: none;
+}
+.pricing-link02 {
+display: none;
+}
+.pricing-link03 {
+display: none;
+}
   .pricing-burger-menu {
     display: flex;
     padding: var(--dl-space-space-halfunit);

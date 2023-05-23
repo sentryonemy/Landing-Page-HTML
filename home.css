@@ -95,13 +95,13 @@
   flex: 0 0 auto;
   left: 0px;
   width: 100%;
-  height: 100VH;
+  height: 30VH;
   display: none;
   padding: var(--dl-space-space-doubleunit);
   position: absolute;
   align-items: flex-start;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #222529;
 }
 .home-container01 {
   flex: 0 0 auto;
@@ -134,18 +134,23 @@
   flex-direction: column;
 }
 .home-link04 {
-  margin-bottom: var(--dl-space-space-unit);
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
 .home-link05 {
-  margin-bottom: var(--dl-space-space-unit);
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
 .home-link06 {
-  margin-bottom: var(--dl-space-space-unit);
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
 .home-link07 {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
 .home-hero {
@@ -1314,6 +1319,18 @@
   }
 }
 @media(max-width: 767px) {
+	.home-link {
+display: none;
+}
+.home-link01 {
+display: none;
+}
+.home-link02 {
+display: none;
+}
+.home-link03 {
+display: none;
+}
   .home-burger-menu {
     display: flex;
     padding: var(--dl-space-space-halfunit);
