@@ -37,8 +37,18 @@
   margin-bottom: var(--dl-space-space-unit);
   text-transform: uppercase;
 }
-
-
+.pricing-image1 {
+  width: 70%;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-tenunits);
+}
+.pricing-image2 {
+  width: 70%;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-tenunits);
+}
 @media(max-width: 1200px) {
   .testimonial-card1-testimonial-card {
     border-color: #222529;
@@ -130,6 +140,18 @@
   }
 }
 @media(max-width: 767px) {
+	.pricing-image1 {
+  width: 95%;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-tenunits);
+}
+.pricing-image2 {
+  width: 95%;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-tenunits);
+  padding-bottom: var(--dl-space-space-tenunits);
+}
   .get-now-banner {
     padding-left: 32px;
     padding-right: 32px;
@@ -344,12 +366,7 @@
   justify-content: center;
   background-color: #222529;
 }
-.pricing-image1 {
-  width: 70%;
-  object-fit: cover;
-  padding-top: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-tenunits);
-}
+
 .pricing-section-separator1 {
   width: 100%;
   height: 1px;
@@ -400,12 +417,7 @@
   justify-content: center;
   background-color: #222529;
 }
-.pricing-image2 {
-  width: 70%;
-  object-fit: cover;
-  padding-top: var(--dl-space-space-tenunits);
-  padding-bottom: var(--dl-space-space-tenunits);
-}
+
 .pricing-section-separator2 {
   width: 100%;
   height: 1px;
