@@ -10,6 +10,7 @@
 
   gtag('config', 'G-L4WG3DHDLE');
 </script>
+<script src="https://player.vimeo.com/api/player.js"></script>
     <title>SentryONE Malaysia</title>
     <meta property="og:title" content="SentryONE Malaysia" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -58,6 +59,7 @@
       }
     </style>
     <link rel="stylesheet" href="./style.css" />
+	
   </head>
   <body>
     <div>
@@ -449,7 +451,7 @@ My parents and children know nothing about cybersecurity. There wasn't a single 
         <div class="home-section-separator3"></div>
         <div class="home-stats">
           <div class="home-stat">
-            <h1 class="home-text092">912</h1>
+            <h1 id="daysofservices" class="home-text092"></h1>
             <span class="home-text093">Days of Service</span>
           </div>
           <div class="home-stat1">
@@ -461,6 +463,17 @@ My parents and children know nothing about cybersecurity. There wasn't a single 
             <span class="home-text097">Happy Customers</span>
           </div>
         </div>
+		
+		
+		
+		<div class="home-container07"> 
+
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/837877427?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="SentryONE"></iframe></div>
+
+        </div>
+		
+		
+		
         <div class="home-section-separator4"></div>
         <div class="home-banner">
           <h2 class="home-text098">
@@ -566,8 +579,17 @@ My parents and children know nothing about cybersecurity. There wasn't a single 
         </div>
       </div>
     </div>
-    	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
 	<script src="./slider.js"></script>
+	<script>
+
+var today = new Date();
+var targetDate = new Date('November 12, 2020');
+var timeDiff = today.getTime() - targetDate.getTime();
+var daysDiff = Math.floor(timeDiff / (1000 * 3600 * 24));
+document.getElementById('daysofservices').textContent = daysDiff;
+
+	</script>
   </body>
 </html>
