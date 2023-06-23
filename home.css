@@ -1129,7 +1129,7 @@
 
 .vidcontainer {
   position: relative;
-  max-width: 50vw;
+  width: 70vw;
   overflow: hidden;
   padding-top: 56.25%; /* 16:9 Aspect Ratio */
   flex: 1;
